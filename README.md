@@ -53,5 +53,10 @@ Usage:
 # XXE
 
 # CSP
+Content Security Policy Bypass
+Usage: 
+
+     cat urls.txt | csp
+
 
 
