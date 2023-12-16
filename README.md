@@ -2,14 +2,14 @@
 Tools for specific types of Header Injectors
      Author  :  adrianalvird [ https://adrianalvird.vercel.app ]
 
-[ For the customization :
+ For the customization :
 
     1. copy the script like hhi.go 
     2. then modify as you needed
     3. go build hhi.go 
     4. sudo cp hhi /usr/bin
 
-]
+
 
 
 # HHI
