@@ -25,8 +25,8 @@ Tools for specific types of Header Injectors
 CRLF Injector Tool added inside Injector 
 Usage: 
 
-    cat urls.txt | crlf -mc 200                //mc = specific status code 
-    cat urls.txt | grep [+]     //advance usage  
+    cat urls.txt | crlf -mc 200                 //mc = specific status code 
+    cat urls.txt | crlf | grep [+]              //advance usage  
     
     
 
