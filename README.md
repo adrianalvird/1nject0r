@@ -17,7 +17,7 @@ Tools for specific types of Header Injectors
  Usage :
  
     cat urls.txt | hhi -s <your_site> -m <request_type>
-    cat urls.txt | hhi -s mysite.com
+    cat urls.txt | hhi -s attackersite.com
     cat urls.txt | hhi -s burp-collaborator.net -m POST
     cat urls.txt | hhi -s attackersite.com | grep "[+]"     //advance usage
 
@@ -30,4 +30,28 @@ Usage:
     
     
 
-#
+# CORS
+Cross Origin Resource Sharing is also a Header Injection Vulnerability
+Usage: 
+
+     cat urls.txt | cors -s attackersite.com -sc 200
+
+# SSRF 
+
+# CachePoison
+
+# XSS
+
+# RequestSmuggle
+
+# RequestSplit
+
+# OpenRedirect
+
+# UserAgent
+
+# XXE
+
+# CSP
+
+
