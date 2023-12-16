@@ -19,14 +19,14 @@ Tools for specific types of Header Injectors
     cat urls.txt | hhi -s <your_site> -m <request_type>
     cat urls.txt | hhi -s mysite.com
     cat urls.txt | hhi -s burp-collaborator.net -m POST
-    cat urls.txt | hhi -s attackersite.com | grep [+]     //advance usage
+    cat urls.txt | hhi -s attackersite.com | grep "[+]"     //advance usage
 
 # CRLF
 CRLF Injector Tool added inside Injector 
 Usage: 
 
     cat urls.txt | crlf -mc 200                 //mc = specific status code 
-    cat urls.txt | crlf | grep [+]              //advance usage  
+    cat urls.txt | crlf | grep "[+]"              //advance usage  
     
     
 
